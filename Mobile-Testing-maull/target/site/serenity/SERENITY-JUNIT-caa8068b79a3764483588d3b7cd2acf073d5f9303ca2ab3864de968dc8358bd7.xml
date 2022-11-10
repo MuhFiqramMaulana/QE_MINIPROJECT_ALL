@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Buy item" skipped="0" tests="2" time="118.84" timestamp="2022-11-09 07:16:12"><testcase name="Buy item PS5"/><testcase name="Buy item PS2"><error message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-A8FBQEN', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\MINI PROJECT Bang Trino\..., appActivity: com.example.frontend_mobile..., appPackage: com.example.frontend_mobile, appWaitActivity: com.example.frontend_mobile..., appWaitPackage: com.example.frontend_mobile, databaseEnabled: false, desired: {app: D:\MINI PROJECT Bang Trino\..., deviceName: UIAutomator2, platformName: android, platformVersion: 7.1.2}, deviceManufacturer: Xiaomi, deviceModel: Redmi Note 5A Prime, deviceName: d3ec8d, deviceScreenSize: 720x1280, deviceUDID: d3ec8d, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 7.1.2, takesScreenshot: true, warnings: {}, webStorageEnabled: false}&#10;Session ID: 6c35be40-db48-445a-8a54-0c3d4774def7&#10;*** Element info: {Using=xpath, value=(//android.widget.Button[@content-desc='Beli'])[5]}&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-A8FBQEN', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.NoSuchElementException">An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A8FBQEN', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\MINI PROJECT Bang Trino\..., appActivity: com.example.frontend_mobile..., appPackage: com.example.frontend_mobile, appWaitActivity: com.example.frontend_mobile..., appWaitPackage: com.example.frontend_mobile, databaseEnabled: false, desired: {app: D:\MINI PROJECT Bang Trino\..., deviceName: UIAutomator2, platformName: android, platformVersion: 7.1.2}, deviceManufacturer: Xiaomi, deviceModel: Redmi Note 5A Prime, deviceName: d3ec8d, deviceScreenSize: 720x1280, deviceUDID: d3ec8d, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 7.1.2, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 6c35be40-db48-445a-8a54-0c3d4774def7
+*** Element info: {Using=xpath, value=(//android.widget.Button[@content-desc='Beli'])[5]}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A8FBQEN', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: driver.version: AndroidDriver</error><system-err>An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A8FBQEN', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\MINI PROJECT Bang Trino\..., appActivity: com.example.frontend_mobile..., appPackage: com.example.frontend_mobile, appWaitActivity: com.example.frontend_mobile..., appWaitPackage: com.example.frontend_mobile, databaseEnabled: false, desired: {app: D:\MINI PROJECT Bang Trino\..., deviceName: UIAutomator2, platformName: android, platformVersion: 7.1.2}, deviceManufacturer: Xiaomi, deviceModel: Redmi Note 5A Prime, deviceName: d3ec8d, deviceScreenSize: 720x1280, deviceUDID: d3ec8d, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 7.1.2, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 6c35be40-db48-445a-8a54-0c3d4774def7
+*** Element info: {Using=xpath, value=(//android.widget.Button[@content-desc='Beli'])[5]}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A8FBQEN', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: driver.version: AndroidDriver&#13;
+io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)&#13;
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)&#13;
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)&#13;
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)&#13;
+io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)&#13;
+io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)&#13;
+io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)&#13;
+io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)&#13;
+io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)&#13;
+io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)&#13;
+io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)&#13;
+io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)&#13;
+io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)&#13;
+sample.mobile.automation@1.0-SNAPSHOT/com.example.app.base.BasePageObject.find(BasePageObject.java:30)&#13;
+sample.mobile.automation@1.0-SNAPSHOT/com.example.app.base.BasePageObject.click(BasePageObject.java:34)&#13;
+sample.mobile.automation@1.0-SNAPSHOT/com.example.app.page.Buy.clickBuyBtnPs2(Buy.java:15)&#13;
+sample.mobile.automation@1.0-SNAPSHOT/com.example.steps.BuyStepdefs.iClickBuyItemPS2(BuyStepdefs.java:16)&#13;
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
+io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)&#13;
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)&#13;
+io.cucumber.core.runner.TestStep.run(TestStep.java:63)&#13;
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:99)&#13;
+io.cucumber.core.runner.Runner.runPickle(Runner.java:71)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:234)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)&#13;
+</system-err></testcase></testsuite>

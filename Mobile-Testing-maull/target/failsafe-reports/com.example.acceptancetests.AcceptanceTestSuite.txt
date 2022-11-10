@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.example.acceptancetests.AcceptanceTestSuite
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 809.998 s <<< FAILURE! - in com.example.acceptancetests.AcceptanceTestSuite
+Buy item.Buy item PS2  Time elapsed: 68.114 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//android.widget.Button[@content-desc='Beli'])[5] (tried for 30 second(s) with 2000 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A8FBQEN', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\MINI PROJECT Bang Trino\..., appActivity: com.example.frontend_mobile..., appPackage: com.example.frontend_mobile, appWaitActivity: com.example.frontend_mobile..., appWaitPackage: com.example.frontend_mobile, databaseEnabled: false, desired: {app: D:\MINI PROJECT Bang Trino\..., deviceName: UIAutomator2, platformName: android, platformVersion: 7.1.2}, deviceManufacturer: Xiaomi, deviceModel: Redmi Note 5A Prime, deviceName: d3ec8d, deviceScreenSize: 720x1280, deviceUDID: d3ec8d, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 7.1.2, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 6c35be40-db48-445a-8a54-0c3d4774def7
+*** Element info: {Using=xpath, value=(//android.widget.Button[@content-desc='Beli'])[5]}
+

@@ -1,0 +1,2265 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-09T11:16:12.664Z",
+        "before": [
+          {
+            "result": {
+              "duration": 22966550400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Buy item PS5",
+        "description": "",
+        "id": "buy-item;buy-item-ps5",
+        "after": [
+          {
+            "result": {
+              "duration": 3614489900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20352891100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have Logged in",
+            "match": {
+              "location": "com.example.steps.LogoutStepdefs.iHaveLoggedIn()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3013821200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click buy item PS5",
+            "match": {
+              "location": "com.example.steps.BuyStepdefs.iClickBuyItemPS5()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 696059500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Item successfully added to cart",
+            "match": {
+              "location": "com.example.steps.BuyStepdefs.itemSuccessfullyAddedToCart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Buy"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-09T11:17:03.603Z",
+        "before": [
+          {
+            "result": {
+              "duration": 15296806700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Buy item PS2",
+        "description": "",
+        "id": "buy-item;buy-item-ps2",
+        "after": [
+          {
+            "result": {
+              "duration": 3337644400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18982025400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I have Logged in",
+            "match": {
+              "location": "com.example.steps.LogoutStepdefs.iHaveLoggedIn()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//android.widget.Button[@content-desc\u003d\u0027Beli\u0027])[5] (tried for 30 second(s) with 2000 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.base.BasePageObject.find(BasePageObject.java:30)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.base.BasePageObject.click(BasePageObject.java:34)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.page.Buy.clickBuyBtnPs2(Buy.java:15)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.steps.BuyStepdefs.iClickBuyItemPS2(BuyStepdefs.java:16)\r\n\tat ✽.I click buy item PS2(file:///D:/MINI%20PROJECT%20Bang%20Trino/Mobile-Testing-maull/src/test/resources/features/math/Buy.feature:14)\r\nCaused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-A8FBQEN\u0027, ip: \u0027192.168.1.6\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.14\u0027\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: D:\\MINI PROJECT Bang Trino\\..., appActivity: com.example.frontend_mobile..., appPackage: com.example.frontend_mobile, appWaitActivity: com.example.frontend_mobile..., appWaitPackage: com.example.frontend_mobile, databaseEnabled: false, desired: {app: D:\\MINI PROJECT Bang Trino\\..., deviceName: UIAutomator2, platformName: android, platformVersion: 7.1.2}, deviceManufacturer: Xiaomi, deviceModel: Redmi Note 5A Prime, deviceName: d3ec8d, deviceScreenSize: 720x1280, deviceUDID: d3ec8d, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 7.1.2, takesScreenshot: true, warnings: {}, webStorageEnabled: false}\nSession ID: 6c35be40-db48-445a-8a54-0c3d4774def7\n*** Element info: {Using\u003dxpath, value\u003d(//android.widget.Button[@content-desc\u003d\u0027Beli\u0027])[5]}\r\n\tat jdk.internal.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)\r\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)\r\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)\r\n\tat io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)\r\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.base.BasePageObject.find(BasePageObject.java:30)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.base.BasePageObject.click(BasePageObject.java:34)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.page.Buy.clickBuyBtnPs2(Buy.java:15)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.steps.BuyStepdefs.iClickBuyItemPS2(BuyStepdefs.java:16)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\r\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\r\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:63)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:99)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:234)\r\n\tat io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.CucumberSerenityRunner$RunCucumber.evaluate(CucumberSerenityRunner.java:262)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\r\n\tat org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:40)\r\n\tat java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\r\n\tat java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)\r\n\tat java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\r\n\tat java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)\r\n\tat java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)\r\n\tat org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)\r\n\tat org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:71)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)\r\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)\r\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)\r\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\r\n",
+              "duration": 30369631900,
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "I click buy item PS2",
+            "match": {
+              "location": "com.example.steps.BuyStepdefs.iClickBuyItemPS2()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2007100,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Item successfully added to cart",
+            "match": {
+              "location": "com.example.steps.BuyStepdefs.itemSuccessfullyAddedToCart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Buy"
+          }
+        ]
+      }
+    ],
+    "name": "Buy item",
+    "description": "  As a user\n  I want to buy item\n  So I can added item to cart",
+    "id": "buy-item",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/math/Buy.feature",
+    "tags": [
+      {
+        "name": "@Buy",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-09T11:18:11.723Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13761131800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Login page",
+        "description": "",
+        "id": "loginpage;login-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3460102400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 552174900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click login icon",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iClickLoginIcon()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14982141400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I input email \"fiqram@gmail.com\" and password \"ganteng\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"fiqram@gmail.com\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"ganteng\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.example.steps.LoginStepdefs.iInputEmailAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2373215900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click login button",
+            "match": {
+              "location": "com.example.steps.LoginStepdefs.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 934858700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I will get result \"go to home page\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"go to home page\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.example.steps.LoginStepdefs.iWillGetResult(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-09T11:18:47.839Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13466304400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Login page",
+        "description": "",
+        "id": "loginpage;login-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 3378475300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 821904100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click login icon",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iClickLoginIcon()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14119554400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I input email \"fiqram@gmail.com\" and password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"fiqram@gmail.com\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.example.steps.LoginStepdefs.iInputEmailAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 468931500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click login button",
+            "match": {
+              "location": "com.example.steps.LoginStepdefs.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 804518800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I will get result \"error password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error password\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.example.steps.LoginStepdefs.iWillGetResult(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-09T11:19:20.909Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13378187400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Login page",
+        "description": "",
+        "id": "loginpage;login-page;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 3340965500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 910456300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click login icon",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iClickLoginIcon()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14512962400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I input email \"\" and password \"ahhay\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"ahhay\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.example.steps.LoginStepdefs.iInputEmailAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 729766700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click login button",
+            "match": {
+              "location": "com.example.steps.LoginStepdefs.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 894948900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I will get result \"error email\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error email\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.example.steps.LoginStepdefs.iWillGetResult(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-09T11:19:54.695Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13474617000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Login page",
+        "description": "",
+        "id": "loginpage;login-page;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 3428909000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1124574300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click login icon",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iClickLoginIcon()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15747226600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I input email \"burung@gmail.com\" and password \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"burung@gmail.com\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.example.steps.LoginStepdefs.iInputEmailAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1468853600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click login button",
+            "match": {
+              "location": "com.example.steps.LoginStepdefs.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1376667900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I will get result \"error message\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error message\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.example.steps.LoginStepdefs.iWillGetResult(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-09T11:20:31.325Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13270107000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Login page",
+        "description": "",
+        "id": "loginpage;login-page;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 3547005300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 547990700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click login icon",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iClickLoginIcon()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15537165200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I input email \"fiqram@gmail.com\" and password \"mmmksmak\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"fiqram@gmail.com\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"mmmksmak\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.example.steps.LoginStepdefs.iInputEmailAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 891995200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click login button",
+            "match": {
+              "location": "com.example.steps.LoginStepdefs.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2717658500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I will get result \"error message\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error message\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.example.steps.LoginStepdefs.iWillGetResult(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-09T11:21:07.865Z",
+        "before": [
+          {
+            "result": {
+              "duration": 15332440800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Login page",
+        "description": "",
+        "id": "loginpage;login-page;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 3405546500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 554374700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click login icon",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iClickLoginIcon()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15763069500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I input email \"fiqram@gmail.com\" and password \"mamam\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"fiqram@gmail.com\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"mamam\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.example.steps.LoginStepdefs.iInputEmailAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1156719300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click login button",
+            "match": {
+              "location": "com.example.steps.LoginStepdefs.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2708233200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I will get result \"error message\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error message\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.example.steps.LoginStepdefs.iWillGetResult(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-09T11:21:46.802Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13351968400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Login page",
+        "description": "",
+        "id": "loginpage;login-page;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 4387175300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1355514900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click login icon",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iClickLoginIcon()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15369219400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I input email \"\" and password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.example.steps.LoginStepdefs.iInputEmailAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 520644700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click login button",
+            "match": {
+              "location": "com.example.steps.LoginStepdefs.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 705042800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I will get result \"error email\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error email\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.example.steps.LoginStepdefs.iWillGetResult(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "LoginPage",
+    "description": "  As a user\n  I want to login\n  So I can buy item",
+    "id": "loginpage",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/math/Login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-09T11:22:22.513Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13347379200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Logout",
+        "description": "",
+        "id": "logout;logout",
+        "after": [
+          {
+            "result": {
+              "duration": 3324375100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20198512800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have Logged in",
+            "match": {
+              "location": "com.example.steps.LogoutStepdefs.iHaveLoggedIn()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 848422300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click logout icon",
+            "match": {
+              "location": "com.example.steps.LogoutStepdefs.iClickLogoutIcon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 667830600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I success logout",
+            "match": {
+              "location": "com.example.steps.LogoutStepdefs.iSuccessLogout()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Logout"
+          }
+        ]
+      }
+    ],
+    "name": "Logout",
+    "description": "  As a user\n  I want to logout\n  So I can login again",
+    "id": "logout",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/math/Logout.feature",
+    "tags": [
+      {
+        "name": "@Logout",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-09T11:23:00.921Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13269997800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Register",
+        "description": "",
+        "id": "register;register;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3355654900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 413406800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on home page",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 234623600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click login icon",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iClickLoginIcon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1189354300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click register",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iClickRegister()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8145221000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clear field name, email, and password",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.clearFieldNameEmailAndPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19851883400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I input name \"fiqramtampan\" email \"tampan@gmail.com\" and password \"ahhay\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"fiqramtampan\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"tampan@gmail.com\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"ahhay\"",
+                  "offset": 66
+                }
+              ],
+              "location": "com.example.steps.RegisterStepdefs.iInputNameEmailAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 872327600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 764844500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I get result \"go to home page\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"go to home page\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.example.steps.RegisterStepdefs.iGetResult(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-09T11:23:49.044Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13292853400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Register",
+        "description": "",
+        "id": "register;register;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 3344521100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 405078800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on home page",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 223338600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click login icon",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iClickLoginIcon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1139606600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click register",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iClickRegister()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8352168100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clear field name, email, and password",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.clearFieldNameEmailAndPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20011166100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I input name \"sukakamu\" email \"tidaksuka@gmail.com\" and password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sukakamu\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"tidaksuka@gmail.com\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 65
+                }
+              ],
+              "location": "com.example.steps.RegisterStepdefs.iInputNameEmailAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 339679300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 958662800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I get result \"error message password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error message password\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.example.steps.RegisterStepdefs.iGetResult(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-09T11:24:37.145Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13400874700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Register",
+        "description": "",
+        "id": "register;register;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 3337561800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 400465100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on home page",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 202122400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click login icon",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iClickLoginIcon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2431723900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click register",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iClickRegister()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8920600100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clear field name, email, and password",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.clearFieldNameEmailAndPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20671394700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I input name \"sukasuka\" email \"\" and password \"malas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sukasuka\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"malas\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.example.steps.RegisterStepdefs.iInputNameEmailAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 804822000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 682328700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I get result \"error message email\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error message email\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.example.steps.RegisterStepdefs.iGetResult(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-09T11:25:28.008Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13667058700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Register",
+        "description": "",
+        "id": "register;register;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 3455436900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 405081600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on home page",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 848701100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click login icon",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iClickLoginIcon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1044135000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click register",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iClickRegister()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8125068000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clear field name, email, and password",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.clearFieldNameEmailAndPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19473367100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I input name \"\" email \"tidur\" and password \"lelah\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"tidur\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"lelah\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.example.steps.RegisterStepdefs.iInputNameEmailAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 797579000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 621765400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I get result \"error message name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error message name\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.example.steps.RegisterStepdefs.iGetResult(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-09T11:26:16.467Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13549378200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Register",
+        "description": "",
+        "id": "register;register;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 3360229900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 852707700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on home page",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 256470100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click login icon",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iClickLoginIcon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1072077700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click register",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iClickRegister()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8922827300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clear field name, email, and password",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.clearFieldNameEmailAndPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15705423900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I input name \"mamam\" email \"\" and password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mamam\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.example.steps.RegisterStepdefs.iInputNameEmailAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 384321200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 733138500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I get result \"error message password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error message password\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.example.steps.RegisterStepdefs.iGetResult(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-09T11:27:01.329Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14046810400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Register",
+        "description": "",
+        "id": "register;register;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 3301357800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 600727300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on home page",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 233023400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click login icon",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iClickLoginIcon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1086966200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click register",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iClickRegister()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8603671300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clear field name, email, and password",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.clearFieldNameEmailAndPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18588336800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I input name \"\" email \"fiqram@gmail.com\" and password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"fiqram@gmail.com\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 54
+                }
+              ],
+              "location": "com.example.steps.RegisterStepdefs.iInputNameEmailAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 423713400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1001800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I get result \"error Message name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error Message name\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.example.steps.RegisterStepdefs.iGetResult(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-09T11:27:48.249Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13519929000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Register",
+        "description": "",
+        "id": "register;register;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 3335969000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 314326800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on home page",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 234624200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click login icon",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iClickLoginIcon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1235366100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click register",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iClickRegister()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7992537300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clear field name, email, and password",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.clearFieldNameEmailAndPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18473616900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I input name \"\" email \"\" and password \"cukul\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"cukul\"",
+                  "offset": 38
+                }
+              ],
+              "location": "com.example.steps.RegisterStepdefs.iInputNameEmailAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1345116700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 813577800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I get result \"error message name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error message name\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.example.steps.RegisterStepdefs.iGetResult(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-09T11:28:35.554Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13698881200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Register",
+        "description": "",
+        "id": "register;register;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 3437537900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 345911500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on home page",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 228061500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click login icon",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iClickLoginIcon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1098545300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click register",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iClickRegister()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8319731800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clear field name, email, and password",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.clearFieldNameEmailAndPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19309529300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I input name \"\" email \"\" and password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 38
+                }
+              ],
+              "location": "com.example.steps.RegisterStepdefs.iInputNameEmailAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 380708200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegisterStepdefs.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 964300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I get result \"error message\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error message\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.example.steps.RegisterStepdefs.iGetResult(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          }
+        ]
+      }
+    ],
+    "name": "Register",
+    "description": "  As a User\n  I want to register\n  So I can login",
+    "id": "register",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/math/Register.feature",
+    "tags": [
+      {
+        "name": "@Register",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-09T11:29:22.390Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13904376000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Adding two numbers",
+        "description": "",
+        "id": "adding-numbers;adding-two-numbers",
+        "after": [
+          {
+            "result": {
+              "duration": 3275488100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20713800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a is 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 5
+                }
+              ],
+              "location": "com.example.steps.MathsStepDefinitions.givenAIs(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1001200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "b is 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 5
+                }
+              ],
+              "location": "com.example.steps.MathsStepDefinitions.givenBIs(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1005800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I add a and b",
+            "match": {
+              "location": "com.example.steps.MathsStepDefinitions.iAddAAndB()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 209426300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the total should be 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 20
+                }
+              ],
+              "location": "com.example.steps.MathsStepDefinitions.theTotalShouldBe(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Adding Numbers",
+    "description": "",
+    "id": "adding-numbers",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/math/adding_numbers.feature",
+    "tags": []
+  }
+]

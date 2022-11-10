@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Buy item","Buy item PS5","SUCCESS","2022-11-09T19:16:12.7891805+08:00[Asia/Singapore]","0.0","50.8"
+"Buy item","Buy item PS2","ERROR","2022-11-09T19:17:03.6087344+08:00[Asia/Singapore]","0.0","68.04"
+"LoginPage","Login page","SUCCESS","2022-11-09T19:18:11.7391586+08:00[Asia/Singapore]","0.0","250.77"
+"Logout","Logout","SUCCESS","2022-11-09T19:22:22.5176564+08:00[Asia/Singapore]","0.0","38.4"
+"Register","Register","SUCCESS","2022-11-09T19:23:00.9252611+08:00[Asia/Singapore]","0.0","381.46"
+"Adding Numbers","Adding two numbers","SUCCESS","2022-11-09T19:29:22.3923323+08:00[Asia/Singapore]","0.0","17.42"
